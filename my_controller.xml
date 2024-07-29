@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<library path="my_controller">
+    <class 
+        name="my_controller/MyRobotController"
+        type="my_controller::MyRobotController"
+        base_class_type="controller_interface::ControllerInterface">
+        <description>
+            Robot Controller 
+        </description>
+    </class>
+
+</library>

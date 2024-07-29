@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<library path="my_hw_if">
+    <class
+        name="my_hw_if/MyRobotInterface"
+        type="my_hw_if::MyRobotInterface"
+        base_class_type="hardware_interface::SystemInterface">
+        <description>
+            Robot Hardware plugin for my custom written robot
+        </description>
+    </class>
+</library>

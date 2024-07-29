@@ -1,0 +1,25 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+    my_controller:
+      type: my_controller/MyRobotController
+          
+    my_hw_if:
+      type: my_hw_if/MyRobotInterface
+      joints:
+        - base_arm_joint
+        - part1_part2_joint
+      command_interfaces:
+        - position
+      state_interfaces:
+        - position
+
+my_controller:
+  ros__parameters:
+    joints:
+      - arm_base_joint
+      - part1_part2_joint
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
